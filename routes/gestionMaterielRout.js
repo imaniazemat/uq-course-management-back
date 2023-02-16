@@ -11,7 +11,7 @@ router.get('/listDeCoursDemateriall', gestionController.listDeCoursDeMateriall)
 
 //router.get('/show/:produitId', ProduitController.show)
 
-router.post('/insert', gestionController.insert) 
+router.post('/insert', gestionController.insert)
 
 //router.put('/update/:produitId', ProduitController.update)
 

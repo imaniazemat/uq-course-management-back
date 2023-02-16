@@ -30,7 +30,7 @@ const listDeCours=(req,res,next)=>{
         from:"Categorie",
         localField:"idCategorie",
         foreignField:"_id",
-        as:"nomCategorie"
+        as:"cat"
 
       }
     }

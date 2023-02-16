@@ -5,6 +5,7 @@ const bodyParser = require('body-parser')
 const CoursRoute = require('./routes/coursRout')
 const GestionRoute = require('./routes/gestionMaterielRout')
 const SectionRoute = require('./routes/sectionRoute')
+const InscriptionRoute = require('./routes/inscriptionRout')
 const connectionPrams = {
   useNewUrlParser: true,
   useUnifiedTopology: true
@@ -31,3 +32,4 @@ app.listen(3000);
 app.use('/api/cours', CoursRoute)
 app.use('/api/gestion', GestionRoute)
 app.use('/api/section', SectionRoute)
+app.use('/api/inscription', InscriptionRoute)
